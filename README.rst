@@ -13,6 +13,6 @@ Usage
 
 ::
 
-{% for f in form %}
-    {% include "inc/forms/form_as_ul.html" with f=f %}
-{% endfor %}
+    {% for f in form %}
+        {% include "inc/forms/form_as_ul.html" with f=f %}
+    {% endfor %}
